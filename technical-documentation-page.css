@@ -1,28 +1,29 @@
 html, body {
     font-family: 'Open Sans', Arial,sans-serif;
+    font-size: 1vw;
 }
 
 nav {
     float: left; 
-    width: 300px;
+    width: 40vw;
     height: 100%;
     position: fixed; 
     border-right: 1px solid black;
 }
 
 nav header {
-    height: 50px;
-    line-height: 50px;
+    height: 6rem;
+    line-height: 6rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 3rem;
     border-bottom: 1px solid black;
 }
 
 nav li {
-    width: 300px;
-    height: 35px;
+    width: 100%;
+    height: 3.5rem;
     text-align: center;
-    line-height: 35px;
+    line-height: 3.5rem;
     text-decoration: none;
     color: black;
     border-right: 1px solid black;
@@ -34,46 +35,44 @@ nav li:hover {
     transition: background-color 1s ease-out;
 }
 
-nav a[href="#references"]  li {
-    border-bottom: none;
-}
 
 nav p {
     float: left; 
-    margin-left: 40px;
-    font-size: 16px;
+    margin-left: 2vw;
+    font-size: 1.5rem;
 }
 
 main {
-    margin-left: 300px;
-    line-height: 25px;
+    margin-left: 40vw;
+    line-height: 2.5rem;
+    width: 50vw;
 }
 
 section {
-    padding: 30px;
+    padding: 2vw;
 }
 
 main h2 {
-    font-size: 24px;
+    font-size: 2.4rem;
     text-decoration: underline;
 }
 
 main article {
-    margin: 20px;
+    margin: 2rem;
 }
 
 article li {
-    margin-left: 25px;
+    margin-left: 2.5rem;
 }
 
 pre {
     border: 1px solid black;
     background-color: lightgrey;
     font-family: monospace;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     display: inline-block;
-    padding-right: 150px;
-    padding-top: 20px;
+    padding-right: 10vw;
+    padding-top: 2rem;
 }
 
 
